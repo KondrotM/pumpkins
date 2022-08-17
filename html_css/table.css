@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+    background-color: #FF7043 ;
+}
+.heading {
+    background-color: #FF7043 ;
+}
+.heading:hover {
+    background-color: #FF7043 ;
+}
+
+tr {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+    background-color: #FFCCBC;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+}
+tr:nth-child(even) {
+  background-color: #FFAB91;
+} 
+
+tr:hover{
+  background-color: #FFF3E0;
+}

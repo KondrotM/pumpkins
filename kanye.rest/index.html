@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- TODO:
+    - [ ] Implement weather lookup
+    - [ ] Implement styling:
+        Margin: auto
+        Card-style styling
+-->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Awesome Blog</title>
+        <link rel="stylesheet" href="index.css" />
+        <script defer src="index.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to weird blog page.</h1>
+        <div class="card card-kanye">
+        <div id="kanyeQuotes">
+            <h2>Inspirational Kanye Quote Below:</h2>
+        </div>
+        </div>
+        <br>
+        <div id="cats" class="card">
+            <h2>Cats</h2>
+            <div>
+            <button id="give-cat" class="button">I need a cat</button>
+            </div>
+
+            <div id="cat-pic">
+            <!-- cat pic here -->
+            </div>
+        </div><br>
+
+        <div id="cats" class="card">
+            <h2>Dogs</h2>
+            <div>
+            <button id="give-dog" class="button">I need a dog</button>
+            </div>
+
+            <div id="dog-pic">
+            <!-- dog pic here -->
+            </div>
+        </div><br>
+
+        <div id="weather" class="card">
+            <h2>Weather</h2>
+            <form id="weather-form">
+                <span>Enter weather location</span><br>
+                <input class="input" id="weather-location" placeholder="Nottingham"/>
+            <button class="button button-20" type="submit">Find weather</button>
+            </form>
+            <div id="weatherError" style="display: none"> 
+                <p >Please enter a valid location</p>
+            </div>
+            <!-- <button id="button-weather">Get Weather in Nottingham</button> -->
+            <div id="div-weather"></div>
+        </div>
+
+        <div id="afx" class="card">
+            <h2>Video</h2>
+            <button id="give-video" class="button">Show video.</button>
+            <iframe id='vid' style="display: none; margin: auto; margin-top: 2rem;" width="560" height="315" 
+            src="https://www.youtube.com/embed/AAKFjnvPHTA" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; encrypted-media;" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    </body>
+</html>

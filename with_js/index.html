@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JS Project</title>
+
+    </head>
+    <body>
+        <h1>Hello TSI</h1>
+        <h2>Here's JS functionality</h2>
+        <div id="holder-1">
+            <button id="button-holder-1" onclick="display()">Click</button>
+            <div id="holder-2" style="display: none;">
+                <p>Here's a thing.</p>
+            </div>
+
+        </div>
+    
+        <script>
+
+
+        function display() {
+            console.log("hi");
+            document.getElementById("holder-2").style.display = "block";
+        }
+        </script>
+    </body>
+</html>
+

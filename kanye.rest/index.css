@@ -1,0 +1,39 @@
+body {
+    background: #EEEEEE;
+}
+
+.container {
+    margin: auto;
+    /* width: fit-content; */
+    width: 760px;
+    /* width: 1080; */
+}
+
+.image-holder {
+    display: flex;
+    height: 500px;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.button {
+    width: 100%;
+}
+
+.button-20 {
+    width: 20%;
+}
+
+.card {
+    /* display: flex; */
+    max-width: 760px;
+}
+
+.input {
+    width: 78%;
+    margin:auto;
+}
