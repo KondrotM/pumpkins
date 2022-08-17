@@ -7,10 +7,27 @@ body {
         sans-serif; 
     font-size: 16px;
     background-color: #FFCCBC;
+    overflow-y: scroll; 
+}
+
+footer {
+    padding: 20px;
+    margin: 20px 5px;
+    border-radius: 4px;
+    box-shadow: #666 2px 2px 5px;
 }
 
 p {
     line-height: 1.8;
+}
+
+a {
+    color: #BF360C
+}
+
+.copyright {
+    display:flex;
+    justify-content: space-between;
 }
 
 .container {
@@ -70,16 +87,34 @@ p {
     width: 100%;
  }
 
-
 .row { 
     width: 100%;
 }
 
-.description {
+.card {
     display: flex;
     flex-direction: column;
 }
 
 .center {
     text-align: center;
+}
+
+.testimonial-head {
+   width: 100px; 
+}
+
+.testimonial {
+    width: fit-content;
+    display: flex;
+    box-shadow: #666 2px 2px 5px;
+    flex-direction: column;
+    justify-items: right;
+    padding: 15px;
+    margin: 20px;
+}
+
+.testimonial-right {
+    align-self: flex-end;
+    align-items: flex-end;
 }
