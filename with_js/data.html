@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="icon.png">
+        <script defer src="data.js" charset="utf-8" type="module"></script>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="table.css" />
+        <title>Pumpkin Data</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header row">
+            <h1>Your Pumpkin Data</h1>
+            </div>
+            <div class="nav row">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="data.html">Data</a>
+                <a class="nav-link" href="pricing.html">Pricing</a>
+            </div>
+            <div class="header header-holder">
+                <img class="img-header row" src="pumpkin-2.jpg" />
+            </div>
+        </div>
+        <div id="local" class="container">
+            <h3>Your pumpkin patch</h3>
+            
+                <form id="patch-form" class="patch-form">
+                    <input class='text-input' type="text" id="height" placeholder="Height (cm)">
+                    <input class='text-input' type="text" id="circumference" placeholder="Circumference (cm)">
+                    <input class='text-input' type="text" id="weight" placeholder="Weight (cm)">
+                    <input class='button-submit' type="submit" value="Submit!">
+                </form>
+                <p id="patch-error">Please fill in at least one field</p>
+
+                <table id="local-form">
+                    <tr class="heading">
+                        <th>Patch no.</th>
+                        <th>Height (cm)</th>
+                        <th>Circumference (cm)</th>
+                        <th>Weight (kg)</th>
+                    </tr>
+                </table>
+
+ 
+        </div>
+        <div id="tables" class="container">
+            <p>Data submitted by intrepid farmers over the years.</p>
+        </div>
+    </body>
+    <footer>
+        <div class="copyright">
+            <div>
+                YourPumpkinDatabase<sup>TM</sup> est. 1997
+            </div>
+            <div>
+                Copyright 2015
+            </div>
+        </div>
+        <div class="copyright">
+            <div>
+                Image sources: 
+                <a href="https://pixabay.com/photos/pumpkin-harvest-autumn-fall-season-3698130" target="_blank">1</a>, 
+                <a href="https://pixabay.com/photos/agriculture-autumn-british-columbia-3736561/" target="_blank">2</a>,
+                <a href="https://www.w3schools.com/howto/howto_css_cards.asp" target="_blank">3</a>,
+                <a href="https://pixabay.com/vectors/turkey-farmer-animal-character-1459105/" target="_blank">4</a>
+            </div>
+            <div>
+                Business is not real.
+            </div>
+        </div>
+    </footer>
+</html>
+ 

@@ -37,3 +37,9 @@ body {
     width: 78%;
     margin:auto;
 }
+
+#chess {
+    display: none; 
+    margin: auto; 
+    margin-top: 2rem;
+}

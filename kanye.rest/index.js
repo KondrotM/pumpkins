@@ -8,16 +8,31 @@ fetch('https://api.kanye.rest')
 
 let videoButton = document.getElementById('give-video');
 
-let on = 0;
+let videoOn = 0;
 videoButton.addEventListener('click', evt => {
-    if (on) {
-        on = 0;
+    if (videoOn) {
+        videoOn = 0;
         document.getElementById('vid').style.display = 'none';
         document.getElementById('give-video').innerHTML = 'Show video.'
     } else {
-        on = 1;
+        videoOn = 1;
         document.getElementById('give-video').innerHTML = 'Hide video.'
         document.getElementById('vid').style.display = 'flex';
+    }
+})
+
+let chessButton = document.getElementById('give-chess');
+
+let chessOn = 0;
+chessButton.addEventListener('click', evt => {
+    if (chessOn) {
+        chessOn = 0;
+        document.getElementById('chess').style.display = 'none';
+        document.getElementById('give-chess').innerHTML = 'Show chess.'
+    } else {
+        chessOn = 1;
+        document.getElementById('give-chess').innerHTML = 'Hide chess.'
+        document.getElementById('chess').style.display = 'flex';
     }
 })
 
@@ -59,7 +74,6 @@ weatherForm.addEventListener('submit', (e) => {
     if (location == '') {
         document.getElementById('weatherError').style.display = 'block';
     } else {
-        try {
         document.getElementById('weatherError').style.display = 'none';
         let weatherDiv = document.getElementById('div-weather');
 
@@ -75,10 +89,8 @@ weatherForm.addEventListener('submit', (e) => {
             console.error(e);
             document.getElementById('weatherError').style.display = 'block';
         })
-        } catch (e) {
-        }
-        }
-})
+    }
+});
 
 
 

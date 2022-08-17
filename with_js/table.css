@@ -1,0 +1,58 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+    background-color: #FF7043 ;
+}
+.heading {
+    background-color: #FF7043 ;
+}
+.heading:hover {
+    background-color: #FF7043 ;
+}
+
+tr {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+    background-color: #FFCCBC;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 5px;
+}
+tr:nth-child(even) {
+  background-color: #FFAB91;
+} 
+
+tr:hover{
+  background-color: #FFF3E0;
+}
+
+.patch-form {
+    width: 100%;
+    display: flex;
+    height: 40px;
+}
+
+.text-input {
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.button-submit {
+    font-size: 18px;
+    background-color: #BA68C8;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 5px;
+}
+
+#patch-error {
+    display: none;
+    text-align: center;
+}
